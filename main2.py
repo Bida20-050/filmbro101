@@ -7,13 +7,12 @@ import time
 import datetime
 
 MAX_TWEET_SIZE = 1000
-
 WAIT_TIME_HOURS_DEFAULT = 6
 WAIT_TIME_HOURS = float(os.getenv("WAIT_TIME_HOURS", default=WAIT_TIME_HOURS_DEFAULT))
 
 START_HOUR = os.getenv('START_HOUR')
 
-ACCOUNT_NAME = os.getenv('ACCOUNT_NAME', default='datakg0si')
+ACCOUNT_NAME = os.getenv('ACCOUNT_NAME', default='slowburn2502')
 
 
 def run_bot(input_file: str, wait_time_hours: float) -> None:
